@@ -9,7 +9,9 @@ h3 {
 }
 
 h4 {
-    color: #eeb007
+    color: #eeb007;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .form {
@@ -102,6 +104,26 @@ td {
     font-size: 28px;
     font-weight: bold;
     padding: 15px 75px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.input {
+    background-color: #dfdfdf;
+    color: #414141c7;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.loginbtn {
+    background-color: #dfdfdf;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 20px;
     border-radius: 8px;
     display: inline-block;
 }
