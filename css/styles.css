@@ -1,0 +1,107 @@
+body {
+    background-color: #313131;
+    margin: 0;
+}
+
+h3 {
+    color: #fafafa;
+    Padding: 5 5 5 5px;
+}
+
+h4 {
+    color: #eeb007
+}
+
+.form {
+    color: #dd6a0b;
+}
+
+hr {
+    background-color: #10f1a6;
+    border-style: none;
+    height: 3px;
+    width: 344px;
+}
+
+.linkshr {
+    background-color: #ffffff;
+    border-style: none;
+    height: 2px;
+    width: 250px;
+}
+
+#footer {
+    color: #cccccc
+}
+
+a {
+    color: #00fce7;
+    padding: 10px;
+}
+
+.content {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.links {
+    text-align: center;
+    font-style: italic;
+    margin: auto;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.abouttablebody {
+    text-align: center;
+    color: #ffffff;
+}
+
+.thead {
+    text-align: center;
+    color: #ffc400;
+    padding: 5px;
+}
+
+.abouttable {
+    border: #cccccc;
+    border-width: 1px;
+    text-align: center;
+    border-style: outset;
+}
+
+td {
+    font-size: 13px;
+}
+
+.homepage {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.homebtn {
+    background-color: #85ff81;
+    color: #414141c7;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 75px;
+    border-radius: 8px;
+    display: inline-block;
+}
