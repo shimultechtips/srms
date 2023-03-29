@@ -8,6 +8,7 @@
     <title>Admin Log In - SRMS</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/favicon.ico">
+    <script src="js/login.js"></script>
 </head>
 
 <body>
@@ -16,20 +17,20 @@
         <hr>
 
         <div class="links">
-            <a href="index.html">Home</a>
-            <a href="admin-login.html">Log In</a>
-            <a href="result-search.html">Result</a>
-            <a href="about.html">About</a>
+            <a class="toplinks" href="index.html">Home</a>
+            <a class="toplinks" href="admin-login.html">Log In</a>
+            <a class="toplinks" href="result-search.html">Result</a>
+            <a class="toplinks" href="about.html">About</a>
             <hr class="linkshr">
         </div>
 
-        
+
         <H4 align="center">Admin Login</H4>
         <div align="center">
-            <form class="form" action="admin.html" method="post">
-                <input class="input" type="email" name="mail" value="" placeholder="Enter Admin Email""><br><br>
-        <input class="input" type="password" name="pass" value="" placeholder="Enter Admin Password"><br><br>
-                <input class="loginbtn" type="submit" name="login" value="Log In"><br><br>
+            <form id="form_id" name="myform" class="form" method="post">
+                <input id="email" class="input" type="email" name="mail" value="" placeholder="Enter Admin Email"><br><br>
+                <input id="password" class=" input" type="password" name="pass" value="" placeholder="Enter Admin Password"><br><br>
+                <input class="loginbtn" type="submit" name="login" value="Log In" id="login" onclick="validate()"><br><br>
             </form>
         </div>
 

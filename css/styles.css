@@ -12,6 +12,8 @@ h4 {
     color: #eeb007;
     font-size: 20px;
     font-weight: bold;
+    margin: 15px;
+    margin-top: 0px;
 }
 
 .form {
@@ -33,16 +35,23 @@ hr {
 }
 
 #footer {
-    color: #cccccc
+    color: #cccccc;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 0px;
 }
 
 a {
     color: #00fce7;
+}
+
+.toplinks {
     padding: 10px;
 }
 
 .content {
-    width: 500px;
+    width: 350px;
     margin: auto;
     padding: 10px;
 }
@@ -78,18 +87,26 @@ a:active {
 .thead {
     text-align: center;
     color: #ffc400;
-    padding: 5px;
 }
 
 .abouttable {
     border: #cccccc;
-    border-width: 1px;
+    border-width: 2px;
     text-align: center;
-    border-style: outset;
+    border-style: dashed;
+}
+
+.aboutfblinks {
+    color: #40a5f8;
 }
 
 td {
     font-size: 13px;
+    text-align: left;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .homepage {
