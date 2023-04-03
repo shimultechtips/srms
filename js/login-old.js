@@ -2,7 +2,9 @@ function validate() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     if (email == "shimul@srms.com" && password == "527501") {
-        window.location.replace("admin.html");
+        alert("Successfully Logged In.");
+        window.open("admin.html");
+        window.close();
         return false;
     }
     else {

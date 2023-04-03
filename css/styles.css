@@ -1,90 +1,86 @@
+/*All Pages Styles*/
+/*All Pages BG Color*/
 body {
     background-color: #313131;
-    margin: 0;
+    margin: 0px;
 }
 
+/*All Pages Student Result Management Systent White Text h3*/
 h3 {
     color: #fafafa;
-    Padding: 5 5 5 5px;
+    font-size: 30px;
 }
 
+/*All Pages Name Orange Text h4*/
 h4 {
     color: #eeb007;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    margin: 15px;
-    margin-top: 0px;
+    margin: 0px;
+    text-decoration: underline;
 }
 
-.form {
-    color: #dd6a0b;
-}
-
+/*All Pages Green Horizontal Line hr*/
 hr {
     background-color: #10f1a6;
     border-style: none;
     height: 3px;
-    width: 344px;
+    width: 100%;
 }
 
-.linkshr {
-    background-color: #ffffff;
-    border-style: none;
-    height: 2px;
-    width: 250px;
-}
-
-#footer {
-    color: #cccccc;
-    font-size: 12px;
-    font-weight: bold;
-    margin: 15px;
-    margin-top: 0px;
-}
-
-a {
-    color: #00fce7;
-}
-
-.toplinks {
-    padding: 10px;
-}
-
-.content {
-    width: 340px;
-    margin: auto;
-    padding: 10px;
-}
-
-.links {
-    text-align: center;
-    font-style: italic;
-    margin: auto;
-    padding: 10px;
-}
-
+/*All Pages Links Styles*/
 a:link {
     text-decoration: none;
 }
 
+/*All Pages Links Styles*/
 a:visited {
     text-decoration: none;
 }
 
+/*All Pages Links Styles*/
 a:hover {
     text-decoration: underline;
 }
 
+/*All Pages Links Styles*/
 a:active {
     text-decoration: underline;
 }
 
+/* Home, Login, Result, About Horizontal White Line .linkshr*/
+.linkshr {
+    background-color: #ffffff;
+    border-style: none;
+    height: 2px;
+    width: 90%;
+}
+
+/* Home, Login, Result, About Padding .toplinks*/
+.toplinks {
+    padding: 10px;
+    color: #00fce7;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*All Pages Links Divider Class*/
+.links {
+    text-align: center;
+    padding: 2px;
+}
+
+/*About Page Data*/
+.aboutimg{
+    width: 100%;
+}
 .abouttablebody {
     text-align: center;
     color: #ffffff;
 }
 
 .thead {
+    font-size: 25px;
     text-align: center;
     color: #ffc400;
 }
@@ -101,14 +97,12 @@ a:active {
 }
 
 td {
-    font-size: 13px;
-    text-align: left;
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    color:#ffffff;
+    font-size: 25px;
+    text-align: Center;
 }
 
+/* Home Page Data*/
 .homepage {
     text-align: center;
     margin: auto;
@@ -125,22 +119,33 @@ td {
     display: inline-block;
 }
 
+/* Admin Login And Result Search Pages Input Styles*/
 .input {
     background-color: #dfdfdf;
     color: #414141c7;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     padding: 8px 8px;
     border-radius: 8px;
     display: inline-block;
 }
 
+/* Admin Login And Result Search Pages Input Styles*/
 .loginbtn {
     background-color: #dfdfdf;
     color: hsl(0, 0%, 0%);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     padding: 8px 20px;
     border-radius: 8px;
     display: inline-block;
+}
+
+/*All Pages Copyright Text #footer*/
+#footer {
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 0px;
 }
