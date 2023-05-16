@@ -64,6 +64,12 @@ a:active {
     font-size: 20px;
 }
 
+.pdfLink {
+    padding: 10px;
+    color: #b3ff3a;
+    font-size: 16px;
+}
+
 /*All Pages Links Divider Class*/
 .links {
     text-align: center;
